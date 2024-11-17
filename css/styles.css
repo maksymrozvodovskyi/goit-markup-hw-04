@@ -294,7 +294,7 @@ img {
 }
 
 .block-container {
-  padding: 32px 16px 0;
+  padding: 32px 0;
 }
 
 .team-title {
@@ -327,6 +327,7 @@ img {
 
 .svg-list {
   display: flex;
+  justify-content: center;
   padding: 8px 16px 32px;
   gap: 24px;
 }
@@ -348,12 +349,13 @@ img {
   transition-property: background-color;
 }
 
-.svg-link:hover {
+.svg-link:hover,
+.svg-link:focus {
   background-color: #404bbf;
 }
 
 .icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 /* #endregion */
@@ -516,12 +518,13 @@ img {
   transition-property: background-color;
 }
 
-.footer-svg-link:hover {
+.footer-svg-link:hover,
+.footer-svg-link:focus {
   background-color: #31d0aa;
 }
 
 .footer-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 /* #endregion */
