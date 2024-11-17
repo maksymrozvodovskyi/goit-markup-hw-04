@@ -328,7 +328,7 @@ img {
 .svg-list {
   display: flex;
   justify-content: center;
-  padding: 8px 16px 32px;
+  padding: 8px 16px;
   gap: 24px;
 }
 
